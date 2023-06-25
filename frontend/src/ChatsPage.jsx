@@ -4,7 +4,7 @@ const ChatsPage = (props) => {
   return (
     <div className="background">
       <PrettyChatWindow
-        projectId={import.meta.env.VITE_CHAT_ENGINE_PROJECT_ID}
+        projectId='c16abce7-3d67-404c-9c98-ac456c16dee7'
         username={props.user.username}
         secret={props.user.secret}
       />
